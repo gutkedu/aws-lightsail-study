@@ -1,9 +1,9 @@
 provider "aws" {
   region  = var.aws_region
-  profile = "gutkedu-terraform"
+  profile = "var.aws_profile"
   default_tags {
     tags = {
-      Project = "wordpress-ligthsail"
+      Project = "learning-lightsail"
     }
   }
 }
