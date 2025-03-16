@@ -1,6 +1,6 @@
 # aws-lightsail-study
 
-This project uses Terraform to provision and manage AWS Lightsail infrastructure components, demonstrating infrastructure-as-code principles with modular design.
+Project to study and experiment with AWS Lightsail infrastructure using Terraform.
 
 ## Architecture Overview
 
@@ -48,6 +48,9 @@ terraform plan
 
 # Apply the configuration
 terraform apply
+
+# Destroy the resources
+terraform destroy
 ```
 
 ## Configuration
