@@ -19,6 +19,10 @@ The infrastructure consists of several modular components that work together to 
 - Configures public ports (firewall rules)
 - Handles static IP allocation and attachment
 - Supports container service networking when needed
+- TODO: Add support for VPC and subnets
+- TODO: Add support for custom DNS configuration
+- TODO: Add support for SSL certificate management
+- TODO: Add support for load balancer configuration
 
 ### 3. Database Module
 - Provisions PostgreSQL database instances
@@ -29,6 +33,11 @@ The infrastructure consists of several modular components that work together to 
 - Manages object storage resources
 - Provides S3-compatible storage buckets
 - Configures access policies and endpoints
+
+### 5. Container Module
+- Provisions container services on Lightsail instances
+- Supports Docker and container orchestration tools
+- Configures networking and security for container workloads
 
 ## Getting Started
 
